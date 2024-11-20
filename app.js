@@ -6,6 +6,7 @@ import GameService from './game.service';
 
 app.use(express.static('public'));
 
+
 app.get('/', (req, res) => {
   res.sendFile(`${__dirname}/index.html`);
 });
